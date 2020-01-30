@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:VM="clr-namespace:EvaluationXamarin.VM.VM;assembly=EvaluationXamarin.VM"
+             x:Class="EvaluationXamarin.Views.PageDetails">
+    <ContentPage.BindingContext>
+        <VM:PokemonDetailsVM x:Name="pokemonDetails"/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Evaluation Xamarin" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                <Image Grid.Column="2" Grid.ColumnSpan="2" Source="valideIcone.png" HorizontalOptions="End" HeightRequest="20"/>
+                <ImageButton Source="exclamation.png" Grid.Column="4" Grid.ColumnSpan="2" HeightRequest="20"/>
+                <Entry Placeholder="search" Grid.Row="2" Grid.ColumnSpan="6" Keyboard="Text" Margin="30,0,30,0" WidthRequest="200" HeightRequest="45" ClearButtonVisibility="WhileEditing"/>
+                
+                <!--#region Description du pokemon -->
+                <Label Text="{Binding Source={x:Reference pokemonDetails}, Path=pokemon.Description}" Grid.Row="3" Grid.RowSpan="2" Grid.ColumnSpan="6" HorizontalOptions="Center"/>
+                <Label Text="{Binding Source={x:Reference pokemonDetails}, Path=pokemon.Name}" Grid.Row="5" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Entry Keyboard="Numeric" Placeholder="ID pokemon" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2"/>
+                <!--#endregion-->
+
+                <!--#region Changement de stat -->
+                <Entry Placeholder="Type1" Text="{Binding Source={x:Reference pokemonDetails}, Path=pokemon.Type1}" Grid.Row="6" Grid.ColumnSpan="3"/>
+                <Entry Placeholder="Type2" Text="{Binding Source={x:Reference pokemonDetails}, Path=pokemon.Type2}" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="3"/>
+                <Entry Placeholder="Degat" Text="{Binding Source={x:Reference pokemonDetails}, Path=pokemon}" Grid.Row="7" Grid.ColumnSpan="3"/>
+                <Entry Placeholder="Defence" Text="{Binding Source={x:Reference pokemonDetails}, Path=pokemon}" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3"/>
+                <!--#endregion-->
+             
+                <!--#region Liste Stat -->
+                <ListView ItemsSource="{Binding Source={x:Reference pokemonDetails}, Path=pokemon.Stat}" Grid.Row="8" Grid.ColumnSpan="6">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Key}" Detail="{Binding Value}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <!--#endregion-->
+
+                <Button Grid.Row="9" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.ColumnSpan="2"/>
+                <Button Grid.Row="9" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Grid.ColumnSpan="2"/>
+                <Button Grid.Row="9" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="4" Grid.ColumnSpan="2"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\EvaluationXamarin.APIService.deps.json
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\EvaluationXamarin.APIService.dll
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\EvaluationXamarin.APIService.pdb
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\obj\Debug\netstandard2.0\EvaluationXamarin.APIService.csprojAssemblyReference.cache
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\obj\Debug\netstandard2.0\EvaluationXamarin.APIService.AssemblyInfoInputs.cache
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\obj\Debug\netstandard2.0\EvaluationXamarin.APIService.AssemblyInfo.cs
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\obj\Debug\netstandard2.0\EvaluationXamarin.APIService.dll
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\obj\Debug\netstandard2.0\EvaluationXamarin.APIService.pdb
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\EvaluationXamarin.DataAPI.dll
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\EvaluationXamarin.DataAPI.pdb
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\obj\Debug\netstandard2.0\EvaluationXamarin.APIService.csproj.CopyComplete
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\x86\sqlite3.dll
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\x64\sqlite3.dll
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\SQLite.Net.dll
+C:\TestXamarin\EvaluationXamarin\EvaluationXamarin.APIService\bin\Debug\netstandard2.0\EvaluationXamarin.DataAPI.dll.config

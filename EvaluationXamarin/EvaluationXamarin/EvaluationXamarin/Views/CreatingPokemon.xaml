@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EvaluationXamarin.Views.CreatingPokemon"
+             xmlns:VM="clr-namespace:EvaluationXamarin.VM.VM;assembly=EvaluationXamarin.VM">
+    <ContentPage.BindingContext>
+        <VM:PokemonCreateVM x:Name="CreatePokemon"/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content> 
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Evaluation Xamarin" Grid.ColumnSpan="4" HorizontalOptions="Center"/>
+                <Image Grid.Column="5" Source="valideIcone.png" HorizontalOptions="End" HeightRequest="20"/>
+                <ImageButton Source="exclamation.png" Grid.Column="6" HeightRequest="20"/>
+                <Entry Placeholder="search" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="5" Keyboard="Text"  WidthRequest="200" HeightRequest="45"/>
+                <Image Source="{Binding Source={x:Reference CreatePokemon}, Path=pokemon.Front}" Aspect="AspectFill" Grid.RowSpan="2" Grid.Row="2"/>
+
+                <Label Text="{Binding Source={x:Reference CreatePokemon}, Path=pokemon.Stat, StringFormat='Physique => {0} : {1} : {2}'}" Grid.Row="3"/>
+                <Label Text="{Binding Source={x:Reference CreatePokemon}, Path=pokemon.Stat, StringFormat='Spécial => {0} : {1} : {2}'}" Grid.Row="4"/>
+                
+                
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

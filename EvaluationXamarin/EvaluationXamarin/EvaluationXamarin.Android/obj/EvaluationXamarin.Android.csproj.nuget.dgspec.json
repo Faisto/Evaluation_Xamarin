@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.Android\\EvaluationXamarin.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.APIService\\EvaluationXamarin.APIService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.APIService\\EvaluationXamarin.APIService.csproj",
+        "projectName": "EvaluationXamarin.APIService",
+        "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.APIService\\EvaluationXamarin.APIService.csproj",
+        "packagesPath": "C:\\Users\\François\\.nuget\\packages\\",
+        "outputPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.APIService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\François\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj": {
+                "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj",
+        "projectName": "EvaluationXamarin.DataAPI",
+        "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.VM\\EvaluationXamarin.VM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.VM\\EvaluationXamarin.VM.csproj",
+        "projectName": "EvaluationXamarin.VM",
+        "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.VM\\EvaluationXamarin.VM.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.APIService\\EvaluationXamarin.APIService.csproj": {
+                "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.APIService\\EvaluationXamarin.APIService.csproj"
+              },
+              "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj": {
+                "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.DataAPI\\EvaluationXamarin.DataAPI.csproj"
+              },
+              "C:\\Users\\François\\source\\repos\\ToolBox\\ToolBox.csproj": {
+                "projectPath": "C:\\Users\\François\\source\\repos\\ToolBox\\ToolBox.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.Android\\EvaluationXamarin.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.Android\\EvaluationXamarin.Android.csproj",
+        "projectName": "EvaluationXamarin.Android",
+        "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.Android\\EvaluationXamarin.Android.csproj",
+        "packagesPath": "C:\\Users\\François\\.nuget\\packages\\",
+        "outputPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\François\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.csproj": {
+                "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.908675, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.csproj",
+        "projectName": "EvaluationXamarin",
+        "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin.csproj",
+        "packagesPath": "C:\\Users\\François\\.nuget\\packages\\",
+        "outputPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin\\EvaluationXamarin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\François\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.VM\\EvaluationXamarin.VM.csproj": {
+                "projectPath": "C:\\TestXamarin\\EvaluationXamarin\\EvaluationXamarin.VM\\EvaluationXamarin.VM.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.908675, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\François\\source\\repos\\ToolBox\\ToolBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\François\\source\\repos\\ToolBox\\ToolBox.csproj",
+        "projectName": "ToolBox",
+        "projectPath": "C:\\Users\\François\\source\\repos\\ToolBox\\ToolBox.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
